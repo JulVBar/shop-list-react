@@ -1,8 +1,8 @@
 import AppInfo from '../app-info/app-info';
 import SearchPanel from '../search-panel/search-panel';
 import AppFilter from '../app-filter/app-filter';
-import EmployersList from '../employers-list/employers-list';
-import EmployeesAddForm from '../employers-add-form/employers-add-form';
+import ShopList from '../shop-list/shop-list';
+import ShopListAddForm from '../shop-list-add-form/shop-list-add-form';
 
 
 import './app.css';
@@ -18,14 +18,14 @@ function App() {
     return (
         <div className="app">
             <div className="app-title">
-                <h1>Список покупок</h1>
+                <h1>Shop List</h1>
             </div>
 
             <div className="app-body">
                 <div className="app-dashboard">
                     <AppInfo/>
-                    <EmployeesAddForm/>
-                    <EmployersList data={data}/>
+                    <ShopListAddForm/>
+                    <ShopList data={data}/>
                 </div>
 
                 <div className="search-panel">

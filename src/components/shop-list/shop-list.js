@@ -1,15 +1,15 @@
-import EmployersListItem from "../employers-list-item/employers-list-item";
+import ShopListItem from "../shop-list-item/shop-list-item";
 
-import './employers-list.css';
+import './shop-list.css';
 
-const EmployersList = ({data}) => {
+const ShopList = ({data}) => {
 
     const elements = data.map(item => {
         const {id, ...itemProps} = item;
 
         return (
             // <EmployersListItem  name={item.name} price={item.price}/>
-            <EmployersListItem  key={id} {...itemProps}/>
+            <ShopListItem key={id} {...itemProps}/>
         )
     });
 
@@ -21,4 +21,4 @@ const EmployersList = ({data}) => {
     )
 }
 
-export default EmployersList;
+export default ShopList;

@@ -5,7 +5,7 @@ const AppInfo = () => {
     return (
         <div className="app-info">
                 <div className="app-info-amount">
-                    <h2>Всего</h2>
+                    <h2>Goods</h2>
                     <div className="app-info-summary">
                         <Icons 
                             name='night'
@@ -15,7 +15,7 @@ const AppInfo = () => {
                     </div>
                 </div>
                 <div className="app-info-sum">
-                    <h2>Сумма</h2>
+                    <h2>Sum, $</h2>
                     <div className="app-info-summary">
                         <Icons 
                             name='night'

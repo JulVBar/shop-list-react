@@ -1,8 +1,8 @@
 
-import './employers-list-item.css';
+import './shop-list-item.css';
 import Icons from '../icons/icons';
 
-const EmployersListItem = ({name, price, priority}) => {
+const ShopListItem = ({name, price, priority}) => {
 
     let classNames = "list-item";
     // if (priority) {
@@ -40,4 +40,4 @@ const EmployersListItem = ({name, price, priority}) => {
     )
 }
 
-export default EmployersListItem;
+export default ShopListItem;

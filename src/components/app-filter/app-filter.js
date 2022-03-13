@@ -11,7 +11,7 @@ const AppFilter = () => {
                     name='masonry'
                     className='btn-filter-icon'
                 />
-                Все товары
+                All Goods
             </button>
             <button 
             className="btn-filter"
@@ -20,7 +20,7 @@ const AppFilter = () => {
                     name='masonry'
                     className='btn-filter-icon'
                 />
-                Срочно купить
+                Buy Firstly
             </button>
             <button 
             className="btn-filter"
@@ -29,7 +29,7 @@ const AppFilter = () => {
                     name='masonry'
                     className='btn-filter-icon'
                 />
-                Дорогие товары
+                Expensive
             </button>
         </div>
     )
