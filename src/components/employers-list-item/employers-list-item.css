@@ -1,0 +1,88 @@
+.list-item {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 3px 16px rgba(104, 132, 157, 0.5),
+                1px 1px 0px #a0a1ac42, -1px -1px 0px #fff;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-item span {
+    line-height: 2rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.list-item input {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    color: #67679E;
+    line-height: 2rem;
+    text-align: center;
+    border: 0;
+    background: transparent;
+}
+
+.list-item-group-button {
+    display: flex;
+    justify-content: сenter;
+    align-items: center;
+}
+
+.list-item-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    padding: 0;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: -4px -2px 16px rgb(255, 255, 255), 4px 3px 16px rgba(149, 172, 192, 0.418);
+    border: none;
+    cursor: pointer;
+    transition: box-shadow .2s linear;
+}
+
+.list-item-button:hover {
+    box-shadow: -4px -2px 16px rgb(255, 255, 255), 4px 3px 16px rgba(149, 172, 192, 0.418),
+                inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+}
+
+.list-item-icon {
+    fill:  #BBCDF7;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.list-item .fa-star {
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    fill: #FFD700;
+    transition: 0.3s all;
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.list-item.like .fa-star {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.list-item.priority .list-item-label, .list-item.increase .list-item-input {
+    color: #e09f3e;
+}
+
+.list-item.priority .btn-star {
+    color: #aeaeae;
+}
+  

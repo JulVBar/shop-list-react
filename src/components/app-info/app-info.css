@@ -1,0 +1,32 @@
+.app-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.app-info-amount,
+.app-info-sum {
+    width: 40%;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 3px 16px rgba(104, 132, 157, 0.5),
+                1px 1px 0px #a0a1ac42, -1px -1px 0px #fff;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+}
+
+.app-info-summary {
+    display: flex;
+    align-items: center;
+}
+
+.app-info-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    fill: #67679E;
+    margin-right: 2rem;
+}
+
+.app-info-summary span {
+    font-size: 2rem;
+}

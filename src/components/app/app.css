@@ -1,0 +1,17 @@
+.app {
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.app-body {
+    display: flex;
+}
+
+.app-dashboard {
+    width: 75%;
+    margin-right: 3rem;
+}
+
+.app-title {
+    margin: 2rem 0;
+}

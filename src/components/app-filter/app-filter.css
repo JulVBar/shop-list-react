@@ -1,0 +1,50 @@
+.btn-group {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    color: #67679E;
+    min-width: 10rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    background: #fff;
+    box-shadow: -4px -2px 16px rgb(255, 255, 255), 4px 3px 16px rgba(149, 172, 192, 0.418);
+    border: none;
+    cursor: pointer;
+    transition: box-shadow .2s linear;
+}
+
+.btn-filter:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.btn-filter-icon {
+    fill:  #BBCDF7;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.list-item-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    padding: 0;
+    border-radius: 50%;
+    
+}
+
+.btn-filter:hover {
+    box-shadow: -4px -2px 16px rgb(255, 255, 255), 4px 3px 16px rgba(149, 172, 192, 0.418),
+                inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+}

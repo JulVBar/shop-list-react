@@ -1,0 +1,66 @@
+.app-add-form {
+    margin-bottom: 2.2rem;
+    padding: 1.5rem;
+    background: #fff;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 3px 16px rgba(104, 132, 157, 0.5),
+                1px 1px 0px #a0a1ac42, -1px -1px 0px #fff;
+    border-radius: 0.6rem;
+}
+
+.add-form {
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.add-form-item {
+    position: relative;
+}
+
+.add-form-input {
+    width: 15rem;
+    height: 2rem;
+    margin-right: 3rem;
+    padding: 0.5rem 1rem;
+    font-family: 'Comfortaa', cursive;
+    color: #67679E;
+    border: 1px solid #BBCDF7;
+    border-radius: 0.6rem;
+    outline: none;
+    background: transparent;
+    transition: border .2s linear;
+}
+
+.add-form-input:focus {
+    border: 1px solid #67679E;
+}
+
+.add-form-label {
+    position: absolute;
+    top: -1.3rem;
+    left: 0.5rem;
+    background: #fff;
+    padding: 0.7rem;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 0.8rem;
+    color: #BBCDF7;
+}
+
+.add-form-btn {
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    padding: 0.5rem 1.3rem;
+    border-radius: 0.6rem;
+    background: linear-gradient(85deg, #F7D0E5 5.28%, #79D6F4 120.77%);
+    border-radius: 1.5rem;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.add-form-btn:hover {
+    transform: scale(1.1);
+}
+
