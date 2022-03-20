@@ -2,17 +2,19 @@ import ShopListItem from "../shop-list-item/shop-list-item";
 
 import './shop-list.css';
 
-const ShopList = ({data}) => {
-
+const ShopList = ({data, onDelete, onToggleProp}) => {
+    
     const elements = data.map(item => {
         const {id, ...itemProps} = item;
 
         return (
-            // <EmployersListItem  name={item.name} price={item.price}/>
-            <ShopListItem key={id} {...itemProps}/>
+            <ShopListItem 
+            key={id}
+            {...itemProps}
+            onDelete={() => onDelete(id)}
+            onToggleProp = { (e) => onToggleProp(id, e.currentTarget.getAttribute('data-toggle'))}/>
         )
     });
-
 
     return (
         <ul className="app-list list-group">

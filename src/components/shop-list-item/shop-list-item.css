@@ -73,7 +73,7 @@
     opacity: 0;
 }
 
-.list-item.like .fa-star {
+.list-item.favourite .fa-star {
     opacity: 1;
     transform: translateX(0px);
 }

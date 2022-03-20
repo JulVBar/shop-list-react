@@ -1,7 +1,16 @@
 import './app-info.css';
 import Icons from '../icons/icons';
 
-const AppInfo = () => {
+const AppInfo = ({data}) => {
+
+    const goods = data.length;
+
+    let arr = [];
+    data.forEach(item => {
+        arr.push(+item.price);
+    })
+    const sum =  arr.reduce((sum, curr) => sum + curr, 0);
+    
     return (
         <div className="app-info">
                 <div className="app-info-amount">
@@ -11,7 +20,7 @@ const AppInfo = () => {
                             name='night'
                             className='app-info-icon'
                         />
-                        <span>10</span>
+                        <span>{goods}</span>
                     </div>
                 </div>
                 <div className="app-info-sum">
@@ -21,7 +30,7 @@ const AppInfo = () => {
                             name='night'
                             className='app-info-icon'
                         />
-                        <span>1600</span>
+                        <span>{sum}</span>
                     </div>
                 </div>
             </div>

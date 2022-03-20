@@ -48,3 +48,9 @@
     box-shadow: -4px -2px 16px rgb(255, 255, 255), 4px 3px 16px rgba(149, 172, 192, 0.418),
                 inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
 }
+
+.btn-filter.active {
+    box-shadow: -4px -2px 16px rgb(255, 255, 255), 4px 3px 16px rgba(149, 172, 192, 0.418),
+                inset -3px -3px 7px #FFFFFF, inset 3px 3px 7px rgba(136, 165, 191, 0.48);
+    background: #bbcdf72f;
+}
