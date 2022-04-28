@@ -3,9 +3,9 @@ import Icons from '../icons/icons';
 
 const AppFilter = (props) => {
     const buttonsData = [
-        {name: 'all', label: 'All Goods', icon: 'masonry'},
-        {name: 'firstly', label: 'Buy Firstly', icon: 'masonry'},
-        {name: 'expensive', label: 'Expensive', icon: 'masonry'}
+        {name: 'all', label: 'All Goods', icon: 'total'},
+        {name: 'firstly', label: 'Buy Firstly', icon: 'buyfirstly'},
+        {name: 'expensive', label: 'Expensive', icon: 'expensive'}
     ];
 
     const buttons = buttonsData.map(({ name, label, icon}) => {

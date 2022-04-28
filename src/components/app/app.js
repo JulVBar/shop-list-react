@@ -15,9 +15,10 @@ class App extends Component {
 
         this.state = {
             data: [
-                {name:"one", price: 800, priority: false, favourite: false, id:1},
-                {name:"two", price: 200, priority: false, favourite: false, id:2},
-                {name:"three", price: 6000, priority: false, favourite: false, id:3},
+                {name:"Milk", price: 800, priority: false, favourite: false, id:1},
+                {name:"Meet", price: 200, priority: false, favourite: true, id:2},
+                {name:"Sugar", price: 6000, priority: true, favourite: false, id:3},
+                {name:"Bread", price: 5500, priority: false, favourite: false, id:4},
             ],
             term: '',
             filter: 'all'

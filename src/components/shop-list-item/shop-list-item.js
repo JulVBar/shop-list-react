@@ -20,7 +20,7 @@ const ShopListItem = (props) => {
                     onClick={onToggleProp}
                     data-toggle="priority">
                     <Icons 
-                        name='day'
+                        name='heart'
                         className='list-item-icon'
                     />
                 </button>
@@ -29,12 +29,12 @@ const ShopListItem = (props) => {
                         className="list-item-button"
                         onClick={onDelete}>
                     <Icons 
-                        name='night'
+                        name='trash'
                         className='list-item-icon'
                     />
                 </button>
                     <Icons 
-                        name='play'
+                        name='star'
                         className='fa-star'
                     />
             </div>

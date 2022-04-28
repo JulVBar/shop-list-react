@@ -17,7 +17,7 @@ const AppInfo = ({data}) => {
                     <h2>Goods</h2>
                     <div className="app-info-summary">
                         <Icons 
-                            name='night'
+                            name='allgoods'
                             className='app-info-icon'
                         />
                         <span>{goods}</span>
@@ -27,7 +27,7 @@ const AppInfo = ({data}) => {
                     <h2>Sum, $</h2>
                     <div className="app-info-summary">
                         <Icons 
-                            name='night'
+                            name='summ'
                             className='app-info-icon'
                         />
                         <span>{sum}</span>
