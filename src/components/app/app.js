@@ -23,7 +23,7 @@ class App extends Component {
             term: '',
             filter: 'all'
         }
-        this.maxId = 4;
+        this.maxId = 5;
     }
 
     deleteItem = (id) => {
